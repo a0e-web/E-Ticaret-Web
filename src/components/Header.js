@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-6">
-                            <p className="text-white mb-0">200TL Üzeri Ücretsiz Kargo & Ücretsiz İade</p>
+                            <p className="text-white mb-0">500TL Üzeri Ücretsiz Kargo & Ücretsiz İade</p>
                         </div>
                         <div className="col-6">
                             <p className="text-end text-white mb-0">

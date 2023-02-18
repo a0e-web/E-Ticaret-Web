@@ -1,5 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
+import Container from "../components/Container";
 import Meta from "../components/Meta";
 
 const TermAndContions = () => {
@@ -7,15 +8,13 @@ const TermAndContions = () => {
     <>
 <Meta title={"Şartlar ve Koşullar"} />
             <BreadCrumb title="Şartlar ve Koşullar" />
-            <section className="policy-wrapper py-5 home-wrapper-2">
-                <div className="container-xxl">
+            <Container class1="policy-wrapper py-5 home-wrapper-2">
                     <div className="row">
                         <div className="col-12">
                             <div className="policy"></div>
                         </div>
                     </div>
-                </div>
-            </section>
+            </Container>
     </>
   )
 }

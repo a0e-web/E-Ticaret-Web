@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BreadCrumb from "../components/BreadCrumb";
+import Container from "../components/Container";
 import Meta from "../components/Meta";
 
 const ResetPassword = () => {
@@ -8,9 +9,7 @@ const ResetPassword = () => {
         <>
             <Meta title={"Şifre Değiştir"} />
             <BreadCrumb title="Şifre Değiştir" />
-
-            <div className="login-wrapper py-5 home-wrapper-2">
-                <div className="container-xxl">
+            <Container class1="login-wrapper py-5 home-wrapper-2">
                 <div className="row">
                     <div className="col-12">
                         <div className="auth-card">
@@ -39,8 +38,7 @@ const ResetPassword = () => {
                         </div>
                     </div>
                 </div>
-                </div>
-            </div>
+            </Container>
         </>
     )
 }
